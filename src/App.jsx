@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <Container>
-        <Video />
+      <Video />
       </Container>
       {/* <div data-aos="zoom-in"></div> */}
     </>

@@ -20,3 +20,29 @@
 .header nav {
   gap: 2rem;
 }
+
+.header > nav > ul > li > a {
+  position: relative;
+  font-size: .8rem;
+  padding: 4px;
+  transition: .5s ease;
+}
+
+.header > nav > ul > li > a:hover {
+  color: #C51212;
+}
+
+.header > nav > ul > li > a::before {
+  position: absolute;
+  bottom: 0;
+  content: '';
+
+  width: 0%;
+  height: 2px;
+  transition: .5s ease;
+  background-color: #C51212;
+}
+
+.header > nav > ul > li > a:hover:before {
+  width: 100%;
+}
